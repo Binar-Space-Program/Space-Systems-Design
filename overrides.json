@@ -1,5 +1,16 @@
 {
-    "@jupyterlab/apputils-extension:themes": {
-      "theme": "JupyterLab Dark"
-    }
+  "@jupyterlab/apputils-extension:themes": {
+    "theme": "JupyterLab Dark"
+  },
+  "@jupyterlab/shortcuts-extension:shortcuts": {
+    "shortcuts": [
+      {
+        "command": "runmenu:run-all",
+        "keys": [
+          "Accel Shift Enter"
+        ],
+        "selector": "[data-jp-code-runner]"
+      }
+    ]
   }
+}
